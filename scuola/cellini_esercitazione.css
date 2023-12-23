@@ -1,0 +1,75 @@
+body { 
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 7vw;
+    border-radius: 100%;
+    background-color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Sigmar', cursive;
+    font-size: 3vw;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Sigmar', cursive;
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: 2px solid black;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.left {
+    background-color: #414141;
+    color: white;
+    width: 30%;
+    padding: 1%;
+}
+
+.top {text-align: center;}
+
+.contatti {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+}
+
+.contatto {
+    font-size: 1.3vw;
+}
+
+.contatto span {
+    vertical-align: -10%;
+    font-size: 2vw;
+}
+
+.right {
+    width: 70%;
+    padding: 3%;
+    padding-left: 1%;
+}
+
+.right p {margin-left: 5%;}

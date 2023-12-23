@@ -1,0 +1,14 @@
+.navbar > div {
+    display: inline;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;   
+    color: white;
+    float: left;
+}
+
+div:hover {
+    background-color: gray;
+    color: black;
+}

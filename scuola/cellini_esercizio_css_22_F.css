@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+}
+
+.items {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.items:hover {
+    background-color: gray;
+}
+
+.about {
+    background-color: green;
+}

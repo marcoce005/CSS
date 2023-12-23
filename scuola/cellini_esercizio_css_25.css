@@ -1,0 +1,24 @@
+.container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+   width: 600px;
+}
+
+.text {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -350px;
+    font-weight: bolder;
+    font-size: 3rem;
+    width: 600px;
+    text-align: center;
+}
+
+.immagine {
+    width: 150px;
+}

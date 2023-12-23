@@ -1,0 +1,21 @@
+.blocchi {
+    border: 1px solid black;
+    padding: 1%;
+    width: 10%;
+    background-color: pink;
+}
+
+.rimosso {
+    display: none;
+}
+
+.invisibile {
+    visibility: hidden;
+}
+
+.linea {
+    display: inline;
+    border: 1px dotted fuchsia;
+    width: 10%;
+    padding: 1%;
+}

@@ -1,0 +1,16 @@
+h1{
+    border-top-style: dotted;
+    border-left-style: dashed;
+    border-right-style: double;
+    border-right-width: 10px;       /*ogni singolo bordo poi può essere personalizzato*/
+    border-right-color: magenta;
+    border-bottom-style: ridge;
+}
+
+p{
+    border-style: outset;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 10px;
+    padding: 15px;       /*spazio dal bordo*/
+}

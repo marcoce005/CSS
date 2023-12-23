@@ -1,0 +1,53 @@
+.red {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+
+.purple1 {
+    background-color: purple;
+    height: 150px;
+    width: 25%;
+}
+
+.purple2 {
+    background-color: purple;
+    height: 150px;
+    width: 50%;
+}
+
+.purple3 {
+    background-color: purple;
+    height: 150px;
+    width: 75%;
+}
+
+.purple4 {
+    background-color: purple;
+    height: 150px;
+    width: 100%;
+}
+
+.green1 {
+    background-color: rgba(0, 255, 0, 65);
+    height: 221px;
+    width: 12.5%;
+}
+
+.green2 {
+    background-color: rgba(0, 255, 0, 65);
+    height: 221px;
+    width: 50%;
+}
+
+.green3 {
+    background-color: rgba(0, 255, 0, 65);
+    height: 221px;
+    width: 62.5%;
+}
+
+.green4 {
+    background-color: rgba(0, 255, 0, 65);
+    height: 221px;
+    width: 22.2%;
+}

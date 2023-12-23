@@ -1,0 +1,31 @@
+#title0 {
+    font-family: 'Sassy Frass', cursive;
+}
+
+#title1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+#title2 {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.UNlist {
+    list-style-type: circle;
+}
+
+.ORlist {
+    list-style-type: upper-roman;
+}
+
+.list-icon {
+    list-style-type: none;
+}
+
+.list-icon > li::before {
+    content: 'done_all';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+}

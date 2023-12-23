@@ -1,0 +1,29 @@
+#c1, #c12 {
+    background-color: blue;
+}
+
+#c2, #c11 {
+    background-color:#EFFF19;
+}
+
+#c3, #c10 {
+    background-color: rgb(255, 167, 25);
+}
+
+#c4, #c9 {
+    background-color: rgba(76, 7, 133, 52);
+}
+
+#c5, #c8 {
+    background-color: hsl(208, 100%, 52.5%);
+}
+
+#c6, #c7 {
+    background-color: hsla(0, 0%, 0%, 100%);
+}
+
+table {
+    width: 650px;
+    height: 650px;
+}
+

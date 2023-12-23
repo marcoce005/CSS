@@ -1,0 +1,43 @@
+#box{
+    width: 250px;
+    height: 250px;
+    font-size: 250px;
+    text-align: center;
+    background-color: red;
+    border: 2px solid black;
+
+/*    animation: myslide1;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;     dissolvenza in entrata e in uscita
+    animation-duration: 5s;
+*/
+    /*Forma compatta : */
+
+    animation: colorchange 5s ease-in-out 2s infinite;
+}
+@keyframes myslide1{
+    from{margin-right: 100%;}
+    to{margin-left: 80%;}
+}
+@keyframes rotate{
+    100%{transform: rotateY(360deg);}
+}
+@keyframes opacity{
+    50%{opacity: 0;}
+}
+@keyframes scale{
+    50%{transform: scale(0.5, 0.5);}    
+}
+@keyframes colorchange{
+    0%{background-color: red;}
+    12%{background-color: orangered;}
+    24%{background-color: orange;}
+    36%{background-color: yellow;}
+    48%{background-color: rgb(255, 255, 160);}
+    60%{background-color: yellow;}
+    72%{background-color: orange;}
+    84%{background-color: orangered;}
+    100%{background-color: red;}
+}

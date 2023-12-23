@@ -1,0 +1,21 @@
+.container {
+    width: 35%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.item {
+    background-color: darkcyan;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

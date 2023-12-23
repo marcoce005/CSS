@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: "press start 2P", "consolas", sans-serif;
+}
+p{
+    color: #00FF00;
+    font-family: "consolas", sans-serif;        /*quello tra "" se non c'è passa all'altro*/
+    font-style: italic;     /*per il corsivo*/
+    font-weight: bolder;      /*per la dimensione*/
+    text-decoration: red dotted underline;     /*sottilineato*/
+    font-size: 20px;
+}

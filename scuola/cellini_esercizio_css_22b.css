@@ -1,0 +1,24 @@
+.all {
+    display: grid;
+    grid-template-columns: repeat(3, 0.07fr);
+}
+
+.pippo {
+    background-color: violet;
+    color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+
+.pluto {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+
+div > p{
+    margin-left: 1rem;
+}

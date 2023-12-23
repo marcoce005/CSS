@@ -1,0 +1,26 @@
+body {
+    background-color: khaki;
+    color: brown;
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.lista {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 80% 20% 0;
+}
+
+.costo {
+    text-align: right;
+}

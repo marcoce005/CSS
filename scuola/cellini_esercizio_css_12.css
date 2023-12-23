@@ -1,0 +1,47 @@
+p > mark {
+    color: green;
+}
+
+b > p {
+    color: red;
+}
+
+div em {
+    color: red;
+    background-color: yellow;
+}
+
+div span {
+    color: black;
+    background-color: yellow;
+}
+
+a {
+    background-color: white;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+    background-color: yellow;
+}
+
+a:hover {
+    color: green;
+}
+
+h1:first-child {
+    text-decoration: underline blue;
+    color: blue;
+}
+
+h2:first-of-type {
+    color:green;
+}
+
+div:first-of-type > p:first-of-type {
+    text-align: right;
+}

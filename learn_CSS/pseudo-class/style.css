@@ -1,0 +1,21 @@
+a:link{
+    color: lawngreen;
+}
+a:visited{
+    color: gray;
+}
+a:hover{            /*quando passi il cursore sopra*/
+    color: red;
+}
+a:active{
+    color: yellow;          /*quando lo schiaccia cambia colore*/
+}
+button:hover{
+    background-color: aqua;
+}
+button:active{
+    background-color: white;
+}
+li:nth-child(4n){                /*per cambiare le liste 'even' per i pari e 'odd' per i dispari*/
+    background-color: yellow;       /*con '4n' si fa ogni 4*/
+}

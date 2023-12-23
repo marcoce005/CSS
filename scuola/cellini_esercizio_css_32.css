@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    width: 70%;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.a {
+    grid-column: 1 / span 2;
+}
+
+.b {
+    grid-column-start: 3;
+    grid-row: 1 / span 2;
+}
+
+.item {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}

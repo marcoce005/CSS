@@ -1,0 +1,29 @@
+div {
+    height: 100vh;
+    width: 100vh;
+}
+
+.p_ass {
+    background-image: url(https://leganerd.com/wp-content/uploads/2020/05/Fi-M-The-Origins-Of-Goofy-480i60-999x562.jpg);
+    background-repeat: no-repeat;
+}
+
+.p_rel {
+    background-image: url("/cellini_foto_pippo.jpeg");
+    background-repeat: no-repeat;
+}
+
+.repeat {
+    background-image: url(https://www.topipittori.it/sites/default/files/styles/copertina/public/copertine-libri/Storia_Piccola.jpg?itok=Wzl_5rNH);
+    background-repeat: repeat;
+}
+
+.repeatx {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3tA_VfFUXTza1cA2CqStbjLTRHt2amNUUtwNBot3FhmYmqbrPjZYR5Yu43hoFZq6kTg&usqp=CAU);
+    background-repeat: repeat-x;
+}
+
+.repeaty {
+    background-image: url(https://cdn.pixabay.com/photo/2019/12/04/04/18/camera-4671614__340.jpg);
+    background-repeat: repeat-y;
+}

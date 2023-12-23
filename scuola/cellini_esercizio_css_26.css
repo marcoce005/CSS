@@ -1,0 +1,18 @@
+.container {
+    border: 1px solid rgb(146, 146, 146);
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 83, 192);
+    color: white;
+    font-weight: bolder;
+    border-radius: 7px;
+    border: 1px solid aqua;
+}

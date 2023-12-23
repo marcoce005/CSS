@@ -1,0 +1,13 @@
+.img {
+    position: absolute;
+    top: 0px;
+}
+
+.text {
+    color: yellow;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-weight: bolder;
+    font-size: 3rem;
+}

@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+
+.h1, .h3, .h5 {
+    color: green;
+}
+
+.h2, .h4 {
+    color: red;
+}
+
+.p1, .p3, .p5 {
+    color: orange;
+}
+
+.p2, .p4, .p6 {
+    color: gray;
+}

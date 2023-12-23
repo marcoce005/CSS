@@ -1,0 +1,28 @@
+body {
+    text-align: left;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.container {
+    background-color: purple;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 450px;
+}
+
+.left {
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.right {
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    padding: 3%;
+    border-radius: 5px;
+}

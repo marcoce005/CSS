@@ -1,0 +1,45 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.container {
+    background-color: purple;
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.one {
+    justify-content: start;
+}
+
+.two {
+    justify-content: end;
+}
+
+.three {
+    justify-content: center;
+}
+
+.four {
+    justify-content: space-between;
+}
+
+.five {
+    justify-content: space-around;
+}
+
+.six {
+    justify-content: space-evenly;
+}
+
+.items {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}

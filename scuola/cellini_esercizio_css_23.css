@@ -1,0 +1,28 @@
+.tux {
+    width: 100px;
+    display: block;
+    padding: 10px;
+}
+
+.blocco {
+    display: inline-block;
+    margin-left: 5px;
+    border: 1px solid  rgb(170, 170, 170);
+}
+
+#first {
+    margin-left: 0px;
+}
+
+.container {
+    width: 646px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    border: 10px solid blue;
+}
+
+.text {
+    text-align: center;
+    border-top: 1px solid rgb(170, 170, 170);
+}
